@@ -1,0 +1,1 @@
+docker run -d --network=host -v $(which docker):/usr/bin/docker -v /var/run/docker.sock:/var/run/docker.sock -v /mnt/Storage/service-compose/mc-server-data/:/opt/mcsmanager/server/server_core --name mcsmanager  ddv12138/mcsmanager:v3
